@@ -4,7 +4,7 @@
 
 ## 環境
 
-▶︎ Ruby 2.1.2\n
-▶︎ Ruby on Rails 4.1.0\n
-▶︎ MySQL 5.6\n
-▶︎ Ubuntu Server 14.04.5\n
+▶︎ Ruby 2.1.2  
+▶︎ Ruby on Rails 4.1.0  
+▶︎ MySQL 5.6  
+▶︎ Ubuntu Server 14.04.5  
