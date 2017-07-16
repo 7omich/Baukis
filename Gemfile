@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use mysql as the database for Active Record
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.20'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -29,6 +29,7 @@ gem 'therubyracer',  platforms: :ruby
 gem 'bcrypt', '~> 3.1.7'
 gem 'nokogiri', '~> 1.6.1'
 gem 'rails-i18n', '~> 4.0.1'
+gem 'rake', '< 11.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
