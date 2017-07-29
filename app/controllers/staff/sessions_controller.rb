@@ -17,10 +17,11 @@ class Staff::SessionsController < Staff::Base
       if staff_member.suspended?
         flash.now.alert = 'アカウントが停止されています。'
         render action: 'new'
-      end
+      else
       session[:staff_member_id] = staff_member.id
       flash.notice = 'ログインしました。'
       redirect_to :staff_root
+      end
     else
       flash.now.alert = 'メールアドレスまたはパスワードが正しくありません。'
       render action: 'new'
